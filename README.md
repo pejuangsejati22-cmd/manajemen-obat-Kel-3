@@ -84,12 +84,11 @@ Agar aplikasi dapat berjalan lancar antara HP Android dan Laptop/Server, ikuti l
 2.  **Konfigurasi API Service:**
     Buka file `lib/services/api_service.dart`. Ubah `baseUrl` sesuai IP Laptop Anda.
 
-    ```dart
     class ApiService {
-    static const String baseUrl = '[http://192.168.1.](http://192.168.1.)X:8000/api';
-    ...
-    }
-    ```
+  // GANTI DENGAN IP LAPTOP ANDA
+  static const String baseUrl = '[http://192.168.1.](http://192.168.1.)X:8000/api';
+  ...
+}
 
 3.  **Install Dependencies:**
     ```bash
