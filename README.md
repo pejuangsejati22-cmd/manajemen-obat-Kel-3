@@ -68,7 +68,7 @@ Agar aplikasi dapat berjalan lancar antara HP Android dan Laptop/Server, ikuti l
 6. **Cara tahu database jalan lancar dengan:**
     Cara agar mengetahui laravel dan database berjalan lancar dengan menjalankan command berikut di terminal bash linux/mac pastikan curl sudah terinstall atau gunakan website reqbin secara online:
     ```bash
-    curl -X POST http://localhost:8000/api/register -H "Content-Type: application/json" -H "Accept: application/json" -d '{"nama": "Admin", "email": "Pejuang@gmail.com", "password": "123456"}'
+    curl -X POST http://localhost:8000/api/register -H "Content-Type: application/json" -H "Accept: application/json" -d '{"nama": "Bagus", "email": "Pejuangsejati22@gmail.com", "password": "12345678"}'
     ```
 
 ---
