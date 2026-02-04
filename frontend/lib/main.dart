@@ -47,7 +47,7 @@ class _CheckAuthState extends State<CheckAuth> {
   }
 
   void _checkLoginStatus() async {
-    // Memberikan waktu splash screen tampil selama 2 detik
+
     await Future.delayed(const Duration(seconds: 2));
 
     final prefs = await SharedPreferences.getInstance();
