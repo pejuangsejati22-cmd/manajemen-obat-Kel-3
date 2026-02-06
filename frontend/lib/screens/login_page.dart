@@ -89,7 +89,7 @@ class _LoginPageState extends State<LoginPage> {
           children: [
             Container(
               width: double.infinity,
-              padding: const EdgeInsets.fromLTRB(30, 80, 30, 80), // Padding disesuaikan untuk posisi tengah
+              padding: const EdgeInsets.fromLTRB(30, 80, 30, 80), 
               decoration: BoxDecoration(
                 gradient: LinearGradient(
                   colors: [primaryColor, accentColor],
@@ -101,10 +101,9 @@ class _LoginPageState extends State<LoginPage> {
                 ),
               ),
               child: Column(
-                mainAxisAlignment: MainAxisAlignment.center, // Menengah secara vertikal
-                crossAxisAlignment: CrossAxisAlignment.center, // Menengah secara horizontal
+                mainAxisAlignment: MainAxisAlignment.center, //
+                crossAxisAlignment: CrossAxisAlignment.center, /
                 children: [
-                  // LOGO DI TENGAH
                   Container(
                     padding: const EdgeInsets.all(15),
                     decoration: const BoxDecoration(
@@ -131,7 +130,7 @@ class _LoginPageState extends State<LoginPage> {
                     ),
                   ),
                   Text(
-                    "Sistem Managemen Obat Terpadu",
+                    "Sistem Manajemen Obat Terpadu",
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 14,
@@ -175,7 +174,7 @@ class _LoginPageState extends State<LoginPage> {
                           ),
                         ),
                         const SizedBox(height: 6),
-                        // SLOGAN DI DALAM KARTU
+
                         const Text(
                           "Gunakan akun terdaftar untuk akses sistem.",
                           textAlign: TextAlign.center,

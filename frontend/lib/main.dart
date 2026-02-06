@@ -152,7 +152,7 @@ class _CheckAuthState extends State<CheckAuth> with SingleTickerProviderStateMix
               ),
               const SizedBox(height: 10),
               Text(
-                "Managemen Data Obat Terpercaya",
+                "Manajemen Data Obat Terpercaya",
                 style: TextStyle(
                   color: Colors.white.withOpacity(0.7),
                   fontSize: 14,
